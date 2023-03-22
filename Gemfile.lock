@@ -88,6 +88,7 @@ GEM
     ruby-openai (3.5.0)
       httparty (>= 0.18.1)
     ruby2_keywords (0.0.5)
+    sequel (5.66.0)
     signet (0.17.0)
       addressable (~> 2.8)
       faraday (>= 0.17.5, < 3.a)
@@ -104,6 +105,7 @@ GEM
       rack-protection (= 3.0.5)
       sinatra (= 3.0.5)
       tilt (~> 2.0)
+    sqlite3 (1.6.1-arm64-darwin)
     thor (1.2.1)
     tilt (2.1.0)
     timeout (0.3.2)
@@ -123,8 +125,10 @@ DEPENDENCIES
   json
   mail
   ruby-openai
+  sequel
   sinatra
   sinatra-contrib
+  sqlite3
 
 BUNDLED WITH
    2.2.3

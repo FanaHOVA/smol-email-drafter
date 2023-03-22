@@ -11,3 +11,6 @@ gem 'byebug'
 
 gem 'ruby-openai'
 gem 'dotenv'
+
+gem 'sqlite3'
+gem 'sequel'
